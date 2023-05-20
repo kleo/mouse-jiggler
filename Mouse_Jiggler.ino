@@ -25,7 +25,7 @@ void loop() {
   while(true) {
     DigiMouse.move(2,0,0); // 2px right
     digitalWrite(1, HIGH);
-    DigiMouse.delay(50);
+    DigiMouse.delay(1000);
     DigiMouse.move(-2,0,0); // 2px left
     digitalWrite(1, LOW);
     DigiMouse.delay(30000);
